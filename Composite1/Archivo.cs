@@ -16,6 +16,6 @@ namespace Composite
         }
         public int ObtenerTamanio() => _tamanio;
 
-        public void Mostrar(int nivel = 0) => Console.WriteLine($"{new string(' ', nivel * 3)}Archivo: {Nombre} - {_tamanio} KB");
+        public void Mostrar() => Console.WriteLine($"\tArchivo: {Nombre} - {_tamanio} KB");
     }
 }

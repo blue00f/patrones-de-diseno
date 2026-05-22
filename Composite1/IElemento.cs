@@ -8,6 +8,6 @@ namespace Composite
     {
         string Nombre { get; }
         int ObtenerTamanio();
-        void Mostrar(int nivel = 0);
+        void Mostrar();
     }
 }

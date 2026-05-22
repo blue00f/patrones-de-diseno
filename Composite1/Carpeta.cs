@@ -24,12 +24,12 @@ namespace Composite
             return total;
         }
 
-        public void Mostrar(int nivel = 0)
+        public void Mostrar()
         {
-            Console.WriteLine($"{new string(' ', nivel * 3)}Carpeta: {Nombre} - Tamaño Total: {ObtenerTamanio()} KB");
+            Console.WriteLine($"{Nombre} - Tamaño Total: {ObtenerTamanio()} KB");
             foreach (IElemento e in elementos)
             {
-                e.Mostrar(nivel + 1);
+                e.Mostrar();
             }
         }
     }
