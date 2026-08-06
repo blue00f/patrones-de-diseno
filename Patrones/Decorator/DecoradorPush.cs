@@ -1,4 +1,4 @@
-﻿namespace Decorator
+﻿namespace Decorator1
 {
     internal class DecoradorPush : DecoradorNotificacion
     {

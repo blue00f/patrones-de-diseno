@@ -1,4 +1,4 @@
-﻿namespace Decorator
+﻿namespace Decorator1
 {
     public class DecoradorSMS : DecoradorNotificacion
     {

@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{4BBF3E8C-3ACC-497C-A9F9-D3DC2465DCE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{35F31F89-4C63-474F-A894-478131A803A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator1", "Decorator\Decorator1.csproj", "{35F31F89-4C63-474F-A894-478131A803A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator2", "Decorator2\Decorator2.csproj", "{DCAFD349-11AD-42C6-9119-F1891025161B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{35F31F89-4C63-474F-A894-478131A803A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F31F89-4C63-474F-A894-478131A803A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F31F89-4C63-474F-A894-478131A803A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAFD349-11AD-42C6-9119-F1891025161B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAFD349-11AD-42C6-9119-F1891025161B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAFD349-11AD-42C6-9119-F1891025161B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAFD349-11AD-42C6-9119-F1891025161B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿using Decorator;
+﻿using Decorator1;
 
 class Program
 {
@@ -10,5 +10,8 @@ class Program
         Console.WriteLine();
         notificacion = new DecoradorPush(notificacion);
         notificacion.Enviar("Enviando pedido");
+
+        notificacion = new DecoradorSMS(notificacion);
+        notificacion.Enviar("enviar pedido");
     }
 }
