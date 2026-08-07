@@ -8,8 +8,6 @@ namespace FactoryMethod.Entidades
     {
         public string Numero { get; set; }
         public decimal Monto { get; set; }
-        public DateTime FechaEmision { get; set; }
-
         public abstract void Emitir();
     }
 }
