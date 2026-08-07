@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Adapter/Adapter.csproj" Id="fc21445f-2992-40bd-8e55-134263b980cc" />
+  <Project Path="Composite/Composite.csproj" Id="d3feddd1-dc1c-493b-84a6-c1d46f490baf" />
+  <Project Path="Decorator/Decorator.csproj" Id="61ffd467-df98-4bdf-a360-9ff532154ee8" />
+  <Project Path="FactoryMethod/FactoryMethod.csproj" />
+  <Project Path="Iterator/Iterator.csproj" Id="8765a138-ca9f-4bb3-90e6-31344aeb7c08" />
+  <Project Path="Memento/Memento.csproj" Id="9d410e5c-88ce-4757-a4d5-a466c9374fc5" />
+  <Project Path="Observer/Observer.csproj" Id="6d0a1e99-71c9-497b-be00-154f7dabbfd6" />
+  <Project Path="Singleton/Singleton.csproj" />
+</Solution>
