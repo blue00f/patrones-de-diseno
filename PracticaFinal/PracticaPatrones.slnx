@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AbstractFactory/AbstractFactory.csproj" Id="405e30c7-b99f-42a1-90e8-dcba24096158" />
   <Project Path="Adapter/Adapter.csproj" Id="fc21445f-2992-40bd-8e55-134263b980cc" />
   <Project Path="Composite/Composite.csproj" Id="d3feddd1-dc1c-493b-84a6-c1d46f490baf" />
   <Project Path="Decorator/Decorator.csproj" Id="61ffd467-df98-4bdf-a360-9ff532154ee8" />
