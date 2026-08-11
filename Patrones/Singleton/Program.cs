@@ -1,4 +1,4 @@
-﻿namespace Singleton;
+﻿namespace Singleton.Entidades;
 class Program
 {
     static void Main(string[] args)
