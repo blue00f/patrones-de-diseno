@@ -1,4 +1,4 @@
-﻿using Composite;
+﻿using Composite1.Entidades;
 
 public class Program
 {

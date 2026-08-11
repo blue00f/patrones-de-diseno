@@ -1,4 +1,5 @@
 ﻿using Decorator1;
+using Decorator1.Entidades;
 
 class Program
 {

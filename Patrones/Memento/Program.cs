@@ -1,4 +1,4 @@
-﻿using Memento;
+﻿using Memento.Entidades;
 
 class Program
 {

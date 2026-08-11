@@ -1,4 +1,4 @@
-﻿using Iterator;
+﻿using Iterator.Entidades;
 
 class Program
 {

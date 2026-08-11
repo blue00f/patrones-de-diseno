@@ -1,4 +1,4 @@
-﻿using Adapter;
+﻿using Adapter.Entidades;
 
 class Program
 {

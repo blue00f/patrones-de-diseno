@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FactoryMethod3.Entidades
+﻿namespace FactoryMethod3.Entidades
 {
     public class DescuentoClienteRegular : CalculadoraDescuento
     {

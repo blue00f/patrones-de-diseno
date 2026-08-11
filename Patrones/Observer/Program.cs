@@ -1,4 +1,4 @@
-﻿using Observer;
+﻿using Observer.Entidades;
 
 class Program
 {

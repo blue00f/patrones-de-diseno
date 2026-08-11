@@ -1,4 +1,4 @@
-﻿using FactoryMethod2;
+﻿using FactoryMethod2.Entidades;
 
 class Program
 {

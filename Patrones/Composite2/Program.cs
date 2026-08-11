@@ -1,4 +1,4 @@
-﻿using Composite2;
+﻿using Composite2.Entidades;
 
 class Program
 {
