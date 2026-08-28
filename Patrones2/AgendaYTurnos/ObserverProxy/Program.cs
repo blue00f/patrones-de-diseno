@@ -8,7 +8,6 @@ public class Program
         agendaReal.Suscribir(new NotificadorPaciente());
         agendaReal.Suscribir(new NotificadorMedico());
 
-        // El cliente solo habla con el Proxy (PROXY)
         IAgenda agenda = new ProxyAgenda(agendaReal);
 
         Console.WriteLine("> La recepcionista reserva un turno:");
