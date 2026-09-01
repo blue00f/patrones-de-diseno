@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BE/BE.csproj" Id="cbfa9bd2-2c87-4390-afbc-aa28a6bba316" />
+  <Project Path="BLL/BLL.csproj" />
+  <Project Path="DAL/DAL.csproj" />
+  <Project Path="MAP/MAP.csproj" />
+  <Project Path="UI/UI.csproj" />
+</Solution>
