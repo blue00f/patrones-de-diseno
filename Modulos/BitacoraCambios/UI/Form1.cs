@@ -111,7 +111,7 @@ namespace UI
                 DateTime fechaInicio = dtpFechaInicio.Value.Date;
                 DateTime fechaFin = dtpFechaFin.Value.Date.AddDays(1).AddTicks(-1);
                 if (fechaInicio > fechaFin) throw new Exception("La fecha de inicio no puede ser mayor a la fecha de fin");
-                Mostrar(grillaProductosCopia, bll_producto_c.ConsultarFiltrado(nombre, codProd, fechaInicio, fechaFin));
+                Mostrar(grillaProductosCopia, bll_producto_c.ConsultarFiltrado(nombre.ToUpper(), codProd.ToUpper(), fechaInicio, fechaFin));
                 if (grillaProductosCopia.Rows.Count > 0) grillaProductosCopia.Columns[0].Visible = false;
             }
             catch (Exception ex)
@@ -129,7 +129,7 @@ namespace UI
                 bll_producto_c.Activar(producto);
 
                 Mostrar(grillaProductos, bll_producto.ConsultarGrilla());
-                Mostrar(grillaProductosCopia, bll_producto_c.ConsultarActivos());
+                btnAplicar_Click(null, null);
                 if (grillaProductosCopia.Rows.Count > 0) grillaProductosCopia.Columns[0].Visible = false;
             }
             catch (Exception ex)
@@ -144,6 +144,7 @@ namespace UI
             txtCodProd.Clear();
             dtpFechaInicio.Value = DateTime.Today;
             dtpFechaFin.Value = DateTime.Today;
+            Mostrar(grillaProductosCopia, bll_producto_c.ConsultarActivos());
         }
     }
 }
