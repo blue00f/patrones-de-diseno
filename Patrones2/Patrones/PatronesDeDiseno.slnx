@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Bridge/Bridge.csproj" Id="1ee96c00-1084-41e1-91a0-b75cae68ebc4" />
+  <Project Path="Builder/Builder.csproj" />
+  <Project Path="Facade/Facade.csproj" Id="a293a598-e636-4e26-ae5a-67f17090283d" />
+  <Project Path="Flyweight/Flyweight.csproj" Id="62e73776-9d31-45aa-b6e9-e8e057321224" />
+  <Project Path="Prototype/Prototype.csproj" Id="2abff8ae-a468-432d-930d-3aa3e75ea628" />
+  <Project Path="Proxy/Proxy.csproj" Id="7b4d7e08-5969-47d4-8e68-02e53cebfabc" />
+</Solution>
