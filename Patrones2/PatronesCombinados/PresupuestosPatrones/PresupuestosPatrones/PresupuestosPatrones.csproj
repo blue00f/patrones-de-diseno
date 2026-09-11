@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- Permite correrlo aunque solo tengas instalado un .NET mas nuevo -->
+    <RollForward>Major</RollForward>
+  </PropertyGroup>
+
+</Project>
