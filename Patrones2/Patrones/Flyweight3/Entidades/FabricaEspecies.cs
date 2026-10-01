@@ -7,16 +7,16 @@
         {
             especiesCreadas = new();
         }
-
         public IEspecie ObtenerEspecie(string nombreEspecie, string colorPiel, string planetaOrigen, string dieta)
         {
+            IEspecie especie;
             if(especiesCreadas.TryGetValue(nombreEspecie, out IEspecie especieExistente))
             {
-                return especieExistente;
+                especie = especieExistente;
             }
-            IEspecie nuevaEspecie = new EspecieFlyweight(nombreEspecie, colorPiel, planetaOrigen, dieta);
-            especiesCreadas[nombreEspecie] = nuevaEspecie;
-            return nuevaEspecie;
+            especie = new EspecieFlyweight(nombreEspecie, colorPiel, planetaOrigen, dieta);
+            especiesCreadas[nombreEspecie] = especie;
+            return especie;
         }
         public int CantidadEspeciesEnMemoria() => especiesCreadas.Count;
     }
