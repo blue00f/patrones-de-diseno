@@ -15,6 +15,7 @@
             {
                 Console.WriteLine($"[Proxy] Primer acceso a '{this.NombreArchivo}': cargando el objeto real...");
                 imagenReal = new ImagenMedicaReal(this.NombreArchivo);
+                imagenReal.CargarDesdeDisco();
             }
             else
             {
