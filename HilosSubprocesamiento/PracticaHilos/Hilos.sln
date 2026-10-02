@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12217.157 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1", "Ej1\Ej1.csproj", "{43BB5697-A14C-4219-965E-B31FE809B172}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2", "Ej2\Ej2.csproj", "{867DA840-46A9-47DA-B71C-741CD41810D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaHilos", "PracticaHilos\PracticaHilos.csproj", "{DD1D8C50-ECBB-4366-88A3-6DF92D228389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{867DA840-46A9-47DA-B71C-741CD41810D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{867DA840-46A9-47DA-B71C-741CD41810D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{867DA840-46A9-47DA-B71C-741CD41810D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1D8C50-ECBB-4366-88A3-6DF92D228389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1D8C50-ECBB-4366-88A3-6DF92D228389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1D8C50-ECBB-4366-88A3-6DF92D228389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1D8C50-ECBB-4366-88A3-6DF92D228389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
