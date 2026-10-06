@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="Bridge/Bridge.csproj" Id="1ee96c00-1084-41e1-91a0-b75cae68ebc4" />
   <Project Path="Builder/Builder.csproj" />
+  <Project Path="ChainOfResponsability/ChainOfResponsability.csproj" Id="f2415a55-a3db-44a4-8eb9-5ef4dd8fbd24" />
+  <Project Path="Command/Command.csproj" Id="a9949d9a-4b15-47fc-9029-f6342d925b77" />
   <Project Path="Facade/Facade.csproj" Id="a293a598-e636-4e26-ae5a-67f17090283d" />
   <Project Path="Flyweight/Flyweight.csproj" Id="62e73776-9d31-45aa-b6e9-e8e057321224" />
   <Project Path="Flyweight2/Flyweight2.csproj" Id="4960c8c4-1c40-4f94-a1b8-844db0c0304a" />
