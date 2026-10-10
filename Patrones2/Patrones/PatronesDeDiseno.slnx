@@ -12,5 +12,6 @@
   <Project Path="State/State.csproj" Id="e966e0cf-162d-43e0-a260-2ebc180a25d1" />
   <Project Path="State2/State2.csproj" Id="4313ec38-a5f5-4b58-81a1-422570870c37" />
   <Project Path="Strategy/Strategy.csproj" Id="fb026d06-f8be-49b0-949f-a9f23d241e06" />
+  <Project Path="TemplateMethod/TemplateMethod.csproj" Id="9d0550ec-b7da-478d-af96-20313f9b63cb" />
   <Project Path="Visitor/Visitor.csproj" Id="1bfb8475-5282-471f-828b-1f2bdb040c15" />
 </Solution>
