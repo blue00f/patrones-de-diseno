@@ -4,7 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
         CentralGuardia central = new CentralGuardia();
         central.Medico = new Medico(central);
         central.Laboratorio = new Laboratorio(central);
