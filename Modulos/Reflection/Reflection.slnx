@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DigitoVerificador/DigitoVerificador.csproj" />
+  <Project Path="Ej2_Clases/Ej2_Clases.csproj" />
+  <Project Path="Ej2_Reflection/Ej2_Reflection.csproj" />
+  <Project Path="Ej3/Ej3.csproj" />
+  <Project Path="Preparcial/Preparcial.csproj" Id="75e6e9f5-7a0e-4aa5-9f6f-7b271d3adb16" />
+</Solution>
